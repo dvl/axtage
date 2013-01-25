@@ -1,0 +1,8 @@
+﻿autoconn,Gerencia a lista de servidores em que o script irá se conectar automaticamente ao ser aberto.
+autoid,Gerencia a lista de nicks programados para auto identificarem no nickserv.
+autojoin,Gerencia a lista de canais no qual o script vai entrar ao identificar o nick.
+autocor,Colore automaticamente os textos enviados.
+emotion,Permite alterar as cores dos emotions enviados.
+ncomp,Edita a forma como os nicks citados são destacados.
+not,Gerencia a lista de notify.
+tstamp,Permite alterar a forma como o timestamp das mensagens são exibidos.

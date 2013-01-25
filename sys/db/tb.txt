@@ -1,0 +1,8 @@
+Opções do mIRC,mopt,0,7
+Panel de Controle,pc,0,17
+-
+Auto Join,autojoin,0,18
+Auto Identify,autoid,0,19
+Auto Connect,autoconn,0,20
+-
+Notify-List,not,0,25
