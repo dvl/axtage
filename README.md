@@ -2,6 +2,8 @@ a.Xtage!
 ========
 Advanced Xtage! - mIRC Script
 
+![screenshot](http://xdvl.info/axtage/screenshot.png)
+
 Funções:
 --------
 * Auto-Join
