@@ -2,7 +2,7 @@ a.Xtage!
 ========
 Advanced Xtage! - mIRC Script
 
-![screenshot](http://xdvl.info/axtage/screenshot.png)
+![screenshot](http://xdvl.info/axtage/images/screenshot.png)
 
 Funções:
 --------
