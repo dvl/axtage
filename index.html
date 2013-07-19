@@ -1,79 +1,106 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>a.Xtage!</title>
+		<style type="text/css">
+			html { 
+				font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+				font-size: 12px;
+				margin: 0 0 10px 0;
+			}
+			h2 {
+				clear: both;
+				color: #738393;
+				font-size: 18px;
+				font-weight: 400;
+				text-align: left;
+				border-bottom: 1px dashed #c0c0c0;
+				padding: 0 0 5px;
+			}
+			h4 { 
+				border-bottom: 1px dashed #c0c0c0;
+				padding: 0 0 5px;
+			}
+			a { 
+				color: #777;
+				text-decoration: none;
+			}
+			a:hover { 
+				color: orange;
+			}
+			.sep { 
+				margin: 10px;
+			}
+		</style>
+		<script type="text/javascript">
+			var moo = "contato"+"&#64;"+"xdvl"+"&#46;"+"info"
+		</script>
+	</head>
+	<body>
+		<h2>a.Xtage! - Advanced.Xtage</h2>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="a.Xtage! : mIRC Script" />
+		<img src="images/screenshot.png" alt=""/>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+		<div class="sep"></div>
+		
+		<h4>Funções:</h4>
+		<ul>
+			<li>Auto-Join</li>
+			<li>Auto-Identify</li>
+			<li>Auto-Connect podendo ser configurado para usar diferentes nicks, fullname, idents, etc... para cada servidor</li>
+			<li>Suporte a encriptação de mensagens usando blowfish/mirc fish (<a href="http://github.com/flakes/mirc_fish_10/" target="_blank">mais...</a>)</li>
+			<li>Visual simples, descomplicado e objetivo</li>
+		</ul>
 
-    <title>a.Xtage!</title>
-  </head>
+		<h4>O que ele não faz/tem:</h4>
+		<ul>
+			<li>Sistema irritante de away enviando mensagens e floodando todos os canais com coisas que ninguém se importa, um simples /away para entrar em away e outro para sair é assim que o script funciona, se alguem falar com você, você saberá! <!-- (<a href="http://s.cdzforever.net/NKn" target="_blank">Leia sobre</a>) --></li>
+			<li>MP3 player, o objetivo do script é conversar, chat, IRC... se quiser ouvir músicas recomendo <a href="http://www.foobar2000.org/" target="_blank">foobar2000.</a></li>
+			<li>Qualquer outra funcão desnecessaria para bate-papo.</li>
+		</ul>
 
-  <body>
+		<h4>Changelog</h4>
+			<ul>
+				<li>v1.14 - 10/10/2010</li>
+				<ul>
+					<li>Adicionada a possibilidade de desativar o auto-join e auto-identify</li>
+					<li>Release publico</li>
+				</ul>
+				<br />
+				<li>v1.15 - 11/10/2010</li>
+				<ul>
+					<li>Adicionado suporte para Wine, entretanto se rodando via Wine, o moo.mrc não irá funcionar, e o script irá desativar a encriptação via blowfish por incompatibilidades.</li>
+					<li>Auto-Identify agora aceita * no campo rede, para que aquele nick seja identificado em todas as redes, entretanto você pode setar uma senha diferente para o mesmo nick especificando a rede, o auto-identify dara preferencia a essa senha.</li>
+				</ul>
+				<br />
+				<li>v1.16 - 24/10/2010</li>
+				<ul>
+					<li>Arrumado um problema que fazia alguns timers serem cancelados quando não deviam ser.</li>
+					<li>Melhorada a forma que alguns eventos são tratados.</li>
+					<li>Arrumado um erro que não mostrava quando a pessoa está away no whois.</li>
+					<li style="color: red; font-weight: bold;">O script agora avisará quando houver novas versões.</li>
+					<li>Melhorado a numeração das versões.</li>
+				</ul>
+				<br />
+				<li>v1.17 - 08/11/2010</li>
+				<ul>
+					<li>Atualizada <a href="http://dcx.scriptsdb.org/forum/showthread.php?tid=216">DCX.DLL</a> com release oficial com melhor compatilibidade com mIRC7.</li>
+					<li>Melhorado o funcionamento dos emotions.</li>
+					<li>Arrumado um bug que em alguns casos não era possivel abrir as opções do mIRC pela Toolbar.</li>
+				</ul>
+			</ul>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/dvl/axtage">View on GitHub</a>
+		<h4>Download</h4>
+			<ul>
+				<li>Versão: 1.17 - Tamanho: 1.99MB - Data: 08/11/2010</li>
+				<ul>
+					<!-- <li><a href="http://xdvl.info/files/ax117.rar">Link #1</a></li> -->
+					<li><a href="http://cdzforever.net/files/ax117.rar">Link #1</a></li>
+				</ul>
+			</ul>
 
-          <h1 id="project_title">a.Xtage!</h1>
-          <h2 id="project_tagline">mIRC Script</h2>
+		<h4>Contato</h4>
+			Escreva para <script type="text/javascript">document.write(moo)</script>, ou <a href="irc://irc.cdzforever.net/cdzforever">#cdzforever @ irc.cdzforever.net</a> 
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/dvl/axtage/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/dvl/axtage/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and weâ€™ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">a.Xtage! maintained by <a href="https://github.com/dvl">dvl</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+	</body>
 </html>
