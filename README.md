@@ -39,8 +39,3 @@ Release publico
 * Atualizada DCX.DLL com release oficial com melhor compatilibidade com mIRC7.
 * Melhorado o funcionamento dos emotions.
 * Arrumado um bug que em alguns casos não era possivel abrir as opções do mIRC pela Toolbar.
-
-Download
---------
-###### Versão: 1.17 - Tamanho: 1.99MB - Data: 08/11/2010 ######
-* http://xdvl.info/files/ax117.rar
