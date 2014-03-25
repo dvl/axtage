@@ -44,7 +44,3 @@ Download
 --------
 ###### Versão: 1.17 - Tamanho: 1.99MB - Data: 08/11/2010 ######
 * http://xdvl.info/files/ax117.rar
-
-Contato
--------
-Escreva para contato@xdvl.info, ou #cdzforever @ irc.cdzforever.net
